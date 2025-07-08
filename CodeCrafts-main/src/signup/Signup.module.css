@@ -1,0 +1,156 @@
+.heading {
+    padding-top: 1em;
+    padding-left: 2em;
+}
+
+.codeCraftLogo {
+    width: 150px;
+}
+
+/* body */
+.bodyContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.bodyContainer h1 {
+    font-size: 3em;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+.bodyContainer span {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.bodyItem1 a {
+    text-decoration: none;
+    color: #116dff;
+    margin: 5px;
+}
+
+.bodyItem1 a:hover {
+    text-decoration: underline;
+}
+
+/* form */
+.formContainer {
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+
+.formChild {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding-right: 1em;
+}
+
+.formChild input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--black);
+    padding-bottom: 1em;
+    padding-right: 2em;
+    font-size: 16px;
+    text-overflow: clip;
+}
+.formChild button {
+    border: 1px solid #8FA6E4;
+    color: #116dff;
+    font-size: 16px;
+    border-radius: 25px;
+    margin-top: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: white;
+}
+
+.formChild button:hover {
+    background-color: #116dff;
+    color: white;
+}
+
+.showPassword {
+    text-decoration: none;
+    color: white;
+    margin-top: 1em;
+    font-size: 16px;
+    background-color: black;
+    max-width: max-content;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+}
+
+.orLineContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.orLine {
+    background-color: #E6EAEF;
+    height: 150px;
+    width: 1px;
+}
+
+.googleLoginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.googleLoginChild {
+    display: flex;
+    align-items: center;
+    background-color: #1A73E8;
+    width: 300px;
+    margin-left: 50px;
+    height: 50px;
+}
+
+.googleLoginChild:last-child {
+    background-color: #3B5998;
+    margin-top: 20px;
+}
+
+.googleLoginChild span {
+    font-size: 16px;
+    color: white;
+    margin-left: 40px;
+}
+
+.googleLoginChild img {
+    height: 34px;
+    margin-left: 5px;
+}
+
+.googleLoginImg {
+    padding-right: 14px;
+    border-right: 2px solid white;
+}
+
+/* footer */
+.footerContainerSignup {
+    margin-top: 50px;
+}
+
+.footerItemSignup {
+    color: #595d70;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footerItemSignup a {
+    text-decoration: none;
+    text-decoration: underline;
+    margin: 2px;
+    color: #595d70;
+}
